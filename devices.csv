@@ -1,0 +1,4 @@
+hostname,loop0_ip,loop0_mask,snmp_ro,snmp_rw
+router1,1.1.1.1,255.255.255.255,public,private
+router2,1.1.1.2,255.255.255.255,public,private
+router3,1.1.1.3,255.255.255.255,public,private

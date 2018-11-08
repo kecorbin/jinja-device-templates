@@ -10,7 +10,7 @@ An interactive script that builds device configurations based on user input usin
 2. Install dependencies with `pip install -r requirements.txt`
 
 
-# Sample
+# Single Device Sample
 
 Generate config
 ```
@@ -34,3 +34,10 @@ snmp-server community public ro
 snmp-server community private rw
 !%                                 
 ```
+
+# Multiple Device Example
+
+Alternatively, a CSV file can be used to easily to multiple devices.  
+
+1. Modify devices.csv as necessary
+2. Run from_csv.py
